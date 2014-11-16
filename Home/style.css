@@ -1,0 +1,168 @@
+html
+{
+	height:100%;
+	width:100%;
+}
+
+body
+{
+	background-image:url('background.jpg');
+	background-color:#cccccc;
+	height:100%;
+}
+/* EVERYTHING FOR THE HEADER IS HERE */
+body #header 
+{
+	background-color:black;
+	color:white;
+	font-size:2em;
+	
+	position:relative;
+	top:0%;
+	height:4%;
+	width:98%;
+	padding:1.5% 1% 1.5% 1%;
+}
+
+body #header #home
+{
+	font-family: 'Russo One', sans-serif;
+	background-color:black;
+}
+
+body #header #home a:link
+{
+	color:white;
+	text-decoration:none;
+}
+
+body #header #home a:visited
+{
+	color:white;
+	text-decoration:none;
+}
+
+body #header #home a:hover
+{
+	background-color:#222222;
+}
+/* END OF HEADER ATTRIBUTES*/
+
+/* BEGINNING OF SIDEBAR IS HERE */
+body #sidebar 
+{
+	float:left;
+	height:70%;
+	width:20%;
+	position:relative;
+	margin-top:5%;
+	
+	border-radius:0 5% 5% 0;
+	background-color:black;
+
+}
+
+body #sidebar .trashable
+{
+	padding:2.5% 2.5% 2.5% 2.5%;
+	margin:5% 5% 5% 5%;
+	
+	color:white;
+	font-size:1.5em;
+	cursor:move; 
+}
+
+body #sidebar #adder
+{
+	padding:2.5% 2.5% 2.5% 2.5%;
+	margin:5% 5% 5% 5%;
+	
+	color:white;
+	font-size:1.5em;
+}
+
+body #sidebar .trashable:hover
+{
+	background-color:#222222;
+}
+
+body #sidebar #adder #add:link
+{
+	text-decoration:none;
+	color:white;
+}
+
+body #sidebar #adder #add:visited
+{
+	text-decoration:none;
+	color:white;
+}
+/* END OF THE SIDEBAR ATTRIBUTES */
+
+/* START OF THE CENTER OF THE WEBSITE */
+
+body #center
+{
+	position:relative;
+	background-color:none;
+	height:30em;
+	width:55%;
+	float:right;
+	margin-right:15%;
+	margin-top:4%;
+	padding:1% 1% 1% 1%;
+}
+
+body #center .block
+{
+	height:90%;
+	width:45%;
+	margin:2.5% 2.5% 2.5% 2.5%;
+}
+
+body #center .block .block2
+{
+	height:46%;
+	width:auto;
+}
+
+body #center .block .block2 .block3
+{
+	height:100%;
+	width:45%;
+	position:static;
+}
+/* END OF THE CENTER ATTRIBUTES */
+
+/* START OF THE FOOTER ATTRIBUTES */
+
+body #footer
+{
+	position:absolute;
+	background-color:black;
+	color:white;
+	font-family: 'Russo One', sans-serif;
+	font-size:2em;
+	
+	height:5%;
+	width:98%;
+	float:right;
+	bottom:0;
+	margin-bottom:0;
+	margin-top:auto;
+	padding:1% 1% 1% 1%;
+}
+
+body #footer #trash			
+{ 
+	width:5%;
+	height:100%; 
+	float:right; 
+	background:url(trash.jpg) 0 0 no-repeat; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+/* END OF THE FOOTER ATTRIBUTES */

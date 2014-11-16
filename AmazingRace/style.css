@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#marianopolis
+{
+	position:absolute;
+	top:0;
+	padding-top:1%;
+	padding-left:0.5%;
+	color:white;
+	font-size:2em;
+	font-family: 'Graduate', cursive;
+	background-color:none;
+	display:inline-block;
+}
+
+.box
+{
+	width:14%;
+	height:5%;
+	
+	padding-top:1%;
+	padding-bottom:1%;
+	font-size:150%;
+	top:0;
+	text-align:center;
+	right:0;
+	background-color:black;
+	color:white;
+    display: inline-block;
+	position: fixed;
+	border-radius:0 0 30% 30%;
+	opacity:0.5;
+} 
+	
+.selected
+{
+	border:solid;
+	border:red;
+}	
+
+.mappoint
+{
+	background-image:url('http://1.bp.blogspot.com/_NnZp-xhsuks/SUOT5U_SPOI/AAAAAAAAC-8/JfWZXmLapgk/s400/seta.png');
+	background-repeat:no-repeat;
+    background-size:cover;
+}
+.welcome
+{
+	top:30%;
+	left:16%;
+	width:70%;
+	height:40%;
+	position:fixed;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size:6em;
+    color:white;
+    line-height:0.8;
+    font-weight:bold;
+}
+.welcome p
+{
+	font-size:2.7em;
+}
+	
+.amazingrace
+{
+    position: absolute;
+    top:95%;
+    left:0%;
+    width: 7%;
+    height: 5%;
+    margin: 0 auto;
+    font-size:0.6em;
+    line-height:0.8;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    border:solid;
+    border-color:white;
+}
+.amazingrace p
+{
+	font-size:2.7em;
+}
+/*					EXTRAS				*/
+
+/*					GALLERY				*/
+#gallery
+{
+	width:90%;
+	height:75%;
+	top:15%;
+    display: none;
+	opacity:1;
+	background-color:black;
+	position:fixed;
+	float:left;
+	border:solid;
+	border-color:#787878;
+}
+
+#gallery #slider img
+{
+}
+/*				END OF GALLERY			*/
+
+/*				REGISTER				*/
+#register
+{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    display:block;
+    background-color:black;
+    color:white;
+    width: 14%;
+    height: 34%;
+    padding:2% 2% 2% 2%;
+    margin: 0 auto;
+    border-top-left-radius:10%;
+    display:none;
+    border:solid;
+	border-color:#787878;
+}
+
+#register h1
+{
+	font-size:1.5em;
+	font-weight:bold;
+}
+/*				END OF REGISTER			*/
+
+/*				TEAMS					*/
+
+#team
+{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    display:block;
+    font-family:Millenium BdEx BT;
+    background-color:black;
+    color:white;
+    width: 14%;
+    height: 50%;
+    padding:2% 2% 2% 2%;
+    margin: 0 auto;
+    display:none;
+    border:solid;
+	border-color:#787878;
+}
+
+
+#red:hover { color:red; }
+#orange:hover { color:orange; }
+#yellow:hover { color:yellow; }
+#green:hover { color:green; }
+#blue:hover { color:blue; }
+#purple:hover { color:purple; }
+#violet:hover { color:violet }
+#pink:hover { color:pink }
+#white:hover { color:#DDDDDD; }
+#grey:hover { color:grey; }
+#brown:hover { color:brown; }
+#black:hover { color:#222222; }

@@ -1,0 +1,166 @@
+body
+{
+	height:100%;
+	width:100%;
+	background-image:url('background.jpg');
+	background-color:#cccccc;
+}
+
+body #header
+{
+	position:relative;
+	background-color:#0064C9;
+	width:100%;
+	height:50px;
+	top:0;
+}
+
+body #header #home:visited
+{
+	text-decoration:none;
+	decoration:none;
+}
+
+body #header #home:link
+{
+	text-decoration:none;
+	decoration:none;
+}
+
+body #header #home:active
+{
+	text-decoration:none;
+	decoration:none;
+}
+
+body #header #home
+{
+	color:white;
+}
+
+body #header #title
+{
+	color:white;
+	padding-top:10px;
+	padding-left:20px;
+	font-size:35px;
+}
+
+body #description
+{
+	height:100px;
+	width:100px;
+	background-color:red;
+	display:block;
+	position:absolute;
+	width:100%;
+	height:80%;
+	background-color:#0064C9;
+}
+
+body #description #insidedescription
+{
+	margin:5% 10% 5% 10%;
+	color:white;
+	font-size:25px;
+}
+	
+body #inputbar
+{
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	color:white;
+	float:left;
+	position:absolute;
+	background-color:#0064C9;
+	margin-top:15px;
+	height:310px;
+	width:140px;
+	border-radius:0 5px 5px 0;
+}
+
+body #gradelist
+{
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	position:absolute;
+	background-color:#0064C9;
+	left:0;
+	margin-top:360px;
+	width:140px;
+	height:180px;
+	float:left;
+	border-radius:0 5px 5px 0;
+}
+body #gradelist #list
+{
+	background-color:white;
+	height:70%;
+	width:90%;
+	margin:3% 3% 3% 3%;
+	position:relative;
+	border-radius:3px 3px 3px 3px;
+}
+body #space
+{
+	width:160px;
+	float:left;
+	position:relative;
+	height:100px;
+}
+body #rscore
+{
+	padding-top:10px;
+	padding-left:5px;
+	padding-right:5px;
+	position:absolute;
+	background-color:#0064C9;
+	left:0;
+	margin-top:570px;
+	width:140px;
+	height:70px;
+	float:left;
+	border-radius:0 5px 5px 0;
+	color:white;
+}
+
+body .university
+{
+	position:relative;
+	width:24%;
+	height:70%;
+	margin:25px 25px 25px 25px;
+	padding:5px 5px 5px 5px;
+	top:-10px;
+	float:left;
+	margin-top:25px;
+	border-radius:10px 10px 10px 10px;
+	color:white;
+}
+body .university .faculty
+{
+	position:relative;
+	padding:5px 5px 5px 5px;
+	float:left;
+	font-size:14px;
+	width:100%;
+	margin:0px 5px 0px 0px;
+}
+
+body .university .faculty h1
+{
+	font-weight:bold;
+	background-color:#0088DD;
+	cursor:pointer;
+}
+
+body .university .faculty h6
+{
+	text-align:right;
+	margin-right:10px;
+	display:inline-block;
+	float:right;
+	clear:left;
+}

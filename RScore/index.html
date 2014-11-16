@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!---- THIS PROJECT WAS STARTED ON APRIL 15 BY ANDY ZHANG---->
+
+
+<meta charset="utf-8" />
+
+<!--IMPORT ALL CSS HERE-------------->
+<link rel="stylesheet" type="text/css" href="reset.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<!------------------------------------>
+
+<!-- IMPORT ALL FONTS HERE ----------->
+<!------------------------------------>
+
+
+<!-- IMPORT ALL JQUERY HERE ---------->
+<script language="javascript" type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script language="javascript" type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+<!--------------------------------------->
+
+
+<!-- IMPORT ALL JAVASCRIPT CODE HERE---->
+<script language="javascript" type="text/javascript" src="rscore.js"></script>
+<script language="javascript" type="text/javascript" src="homemenu.js"></script>
+<!------------------------------------>
+
+<title>RSCORE CALCULATOR</title>
+</head>
+
+<body>
+<div id="header">
+<div id="title"><a id="home" href="#">HOME</a></div>
+</div>
+
+<div id="description"><div id="insidedescription"><p>Hi and welcome to the RScore calculator. This calculator will not only allow you to calculate your R-Score but also show you the programs you are <b>potentially</b> eligible for.</p><br>
+<p>On the left hand side, you will be asked to input the CEGEP's high school average, your grade, the class average, the standard deviation and the course credit. You may add up to a total of 8 courses.</p><br>
+<p> After adding all of the courses, click calculate and all of the programs you are eligible for will be listed to its associated University.</p><br>
+<p>Please note that these are only the academic requirements. Some of these programs may require a letter of intent, a portfolio, interview, etc. The data used was from the admissions in 2012.</p><br>
+<p>Click on HOME to start!</p></div></div>
+
+<div id="inputbar">
+<h2>INPUT GRADES</h2>
+<hr>
+High School average<input type="text" id="highschool">
+CEGEP Grade<input type="text" id="grade">
+CEGEP Class Average<input type="text" id="average">
+CEGEP Standard Deviation<input type="text" id="dev">
+Course Credit <input type="text" id="credit">
+<a href="#"><img src="Add.png" id="add" style="height:30px;margin-left:30%"/></a>
+<hr>
+</div>
+
+<div id="gradelist"><div id="list"></div>
+<a href="#"><img src="calculate.png" id="calculate" style="height:35px;margin-top:5px"/></a></div>
+<div id="rscore">RSCORE:</div>
+<div id="space"></div>
+
+</body>
+</html>
+
+

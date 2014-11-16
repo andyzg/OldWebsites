@@ -1,0 +1,192 @@
+body
+{
+	height:100%;
+	width:100%;
+}
+
+.title
+{
+	padding:1% 50px 1% 50px;
+	margin-left:25px;
+	width:700px;
+	clear:right;
+	font-family:Arial;
+	font-size:2em;
+	font-weight:bold;
+	text-align:left;
+	border-bottom:5px solid black;
+}
+
+body #name
+{
+	margin-left:17%;
+	margin-top:2%;
+	margin-right:auto;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:3.5em;
+}
+
+body #header
+{
+	width:900px;
+	margin-top:4%;
+	margin-left:15%;
+	margin-right:auto;
+}
+
+body #header ul 
+{
+	margin-top:1%;
+}
+
+body #header ul li {
+    border-bottom: 5px solid black;
+	float: left;
+    margin-left:50px;
+    margin-right:50px;
+    line-height: 180%;
+    padding: 0 25px 0 25px;
+    width:75px;
+    text-align:center;
+    font-family:Arial;
+    font-weight:bold;
+}
+
+body #header ul li:hover
+{
+	border-bottom:5px solid #108593;
+}
+
+body #header ul li a:link
+{
+	text-decoration:none;
+	color:black;
+}
+
+body #header ul li a:active
+{
+	text-decoration:none;
+	color:black;
+}
+
+body #header ul li a:visited
+{
+	text-decoration:none;
+	color:black;
+}
+
+body #about
+{
+	margin-left:15%;
+	margin-right:auto;
+	background-color:none;
+	width:900px;
+	height:400px;
+	margin-top:150px;
+}
+
+body #about #image
+{
+	margin:20px 10px 20px 20px;
+	height:360px;
+	width:260px;
+	background-color:none;
+	float:left;
+}
+
+body #about #description
+{
+	margin:20px 20px 20px 10px;
+	width:480px;
+	height:280px;
+	padding:40px 40px 40px 40px;
+	background-color:none;
+	float:right;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+body .transport
+{
+	margin-left:15%;
+	margin-right:auto;
+	margin-top:50px;
+	width:900px;
+	height:85px;
+	background-color:none;
+}
+
+body .transport .layer
+{
+	margin-left:20%;
+	margin-right:20%;
+	padding:0 29% 0 29%;
+	width:2%;
+	height:37.5px;
+	background-color:none;
+}
+
+body #project
+{
+	margin-left:15%;
+	margin-right:auto;
+	margin-top:50px;
+	width:900px;
+	height:730px;
+	background-color:none;
+}
+
+body #project .demo
+{
+	margin:10px 30px 30px 30px;
+	height:250px;
+	width:250px;
+	float:left;
+}
+
+body #project #projdesc
+{
+	margin:300px 20px 30px 30px;
+	height:300px;
+	width:800px;
+	padding:20px; 50px 0 50px;
+	background-color:none;
+	font-size:1.5em;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+body #resume
+{
+	margin-left:15%;
+	margin-top:25px;
+	margin-right:auto;
+	height:640px;
+	width:860px;
+	padding:20px 20px 20px 20px;
+	background-color:none;
+}
+
+body #contact
+{
+	margin-left:15%;
+	margin-right:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	height:400px;
+	width:860px;
+	padding:20px 20px 20px 20px;
+	background-color:none;
+}
+
+body #contact #content
+{
+	margin:20px 20px 20px 20px;
+	padding:20px 20px 20px 20px;
+	width:780px;
+	height:260px;
+	background-color:none;
+	font-size:1.5em;
+	font-weight:bold;
+}
