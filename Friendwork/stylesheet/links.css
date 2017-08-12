@@ -1,0 +1,105 @@
+body #header #contain0 #title a:active
+{
+	text-decoration:none;
+	color:#F6F6E8;
+}
+
+body #header #contain0 #title a:visited
+{
+	text-decoration:none;
+	color:#F6F6E8;
+}
+
+body #header #contain0 #title a:link
+{
+	text-decoration:none;
+	color:#F6F6E8;
+}
+
+body #header #contain0 #login a:active
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #header #contain0 #login a:link
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #header #contain0 #login a:visited
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #header #contain0 ul li a:link
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #header #contain0 ul li a:visited
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #header #contain0 ul li a:active
+{
+	text-decoration:none;
+	color:#F6F6F8;
+}
+
+body #center #box p a:active,body #center #box p a:link ,body #center #box p a:visited
+{
+	font-size:20px;
+	color:#00ACE9;
+	text-decoration:none;
+}
+
+body #center form .choice a:link
+{
+	text-decoration:none;
+	color:#202020;
+}
+body #center form .choice a:active
+{
+	text-decoration:none;
+	color:#202020;
+}
+body #center form .choice a:visited
+{
+	text-decoration:none;
+	color:#202020;
+}
+
+body #center form .choice a:hover
+{
+	text-decoration:none;
+	color:#F6F6E8;
+}
+
+body #center form .type a:link
+{
+	text-decoration:none;
+	color:#202020;
+}
+body #center form .type a:active
+{
+	text-decoration:none;
+	color:#202020;
+}
+body #center form .type a:visited
+{
+	text-decoration:none;
+	color:#202020;
+}
+
+body #center form .type a:hover
+{
+	text-decoration:none;
+	color:#F6F6E8;
+}
+
